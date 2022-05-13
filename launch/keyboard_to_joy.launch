@@ -1,0 +1,6 @@
+<launch>
+  <arg name="joy_dev" default="f710" />
+
+  <rosparam command="load" file="$(find keyboard_to_joy)/config/$(arg joy_dev).yaml" />
+  <node pkg="keyboard_to_joy" type="keyboard_to_joy" name="keyboard_to_joy" output="screen"/>
+</launch>

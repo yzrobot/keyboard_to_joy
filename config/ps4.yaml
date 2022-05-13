@@ -1,0 +1,16 @@
+# PlayStation 4 Dual Shock Controller Input Mapping
+axes: 8
+buttons: 14
+
+left: 0
+right: 0
+up: 4
+down: 4
+
+x_a: 1
+o_b: 2
+square_x: 0
+triangle_y: 3
+
+l1_lb: 4
+r1_rb: 5
